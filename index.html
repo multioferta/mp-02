@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Melhor Postura</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/normalize.min.css" type="text/css">
+    <link rel="stylesheet" href="css/presell-crusher.min.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,700i,800" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/quiz-custom.css">
+    <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper main clearfix">
+        <div class="progress-wrapper">
+            <!-- <div class="progress-bar"></div> -->
+        </div>
+        <div id="surveyBox" class="clearfix">
+            <div id="questionBox" class="clearfix">
+                <article id="step1" class="questionStep clearfix" data-step="1">
+                    <h4>RESPONDA COM ATENÇÃO!</h4>
+                    <p>VOCÊ <b>SENTE DORES</b> NAS <b>COSTAS, OMBROS</b> OU <b>LOMBAR</b> EM DIFERENTES HORAS DO DIA?
+                    </p>
+                    <img class="image-question" src="https://via.placeholder.com/250">
+                    <br>
+                    <button class="stepButton yesBtn s1" data-step="1" href="" data-swap="">SIM</button>
+                    <button class="stepButton noBtn s1" data-step="1" href="" data-swap="">NÃO</button>
+                </article>
+                <article id="step2" class="questionStep clearfix" data-step="2">
+                    <h4>ALERTA PARA A IDADE!</h4>
+                    <p>VOCÊ TEM <b>MAIS DE 40 ANOS</b> E PERCEBEU QUE AS <b>DORES TEM AUMENTADO</b>?</p>
+                    <img class="image-question" src="https://via.placeholder.com/250">
+                    <br>
+                    <button class="stepButton yesBtn s2" data-step="2" href="" data-swap="">SIM</button>
+                    <button class="stepButton noBtn s2" data-step="2" href="" data-swap="">NÃO</button>
+                </article>
+                <article id="step3" class="questionStep clearfix" data-step="3">
+                    <h4>ALERTA PARA A CORCUNDA!</h4>
+                    <p>VOCÊ PERCEBEU QUE A SUA POSTURA ESTÁ CADA VEZ <b>MAIS CURVADA</b>?</p>
+                    <img class="image-question" src="https://via.placeholder.com/250">
+                    <br>
+                    <button class="stepButton yesBtn s3" data-step="3" href="" data-swap="">SIM</button>
+                    <button class="stepButton noBtn s3" data-step="3" href="" data-swap="">NÃO</button>
+                </article>
+                <article id="step4" class="questionStep clearfix" data-step="4">
+                    <h4>NOVIDADE! NOVA TECNOLOGIA</h4>
+                    <p>VOCÊ ACREDITA QUE A <b>TECNOLOGIA, OS MÉDICOS E A CIÊNCIA</b> PODEM TE AJUDAR A TER UMA
+                        <b>POSTURA
+                            RETA E ACABAR COM AS SUAS DORES</b>?</p>
+                    <img class="image-question" src="https://via.placeholder.com/250">
+                    <br>
+                    <button class="stepButton yesBtn s4" data-step="4" href="" data-swap="">SIM</button>
+                    <button class="stepButton noBtn s4" data-step="4" href="" data-swap="">NÃO</button>
+                </article>
+            </div>
+            <div id="surveyEval" class="clearfix">
+                <h3 id="pss1-title" class="evalTitle" data-step="1" style="display: none;">Validando Respostas…</h3>
+                <h3 id="pss2-title" class="evalTitle" data-step="2" style="display: none;">Verificando
+                    Disponibilidade...</h3>
+                <h3 id="pss3-title" class="evalTitle" data-step="3" style="display: none;">Reservando a sua Vaga…</h3>
+                <h3 id="pss4-title" class="evalTitle" data-step="4" style="display: none;">Processo Concluido Com
+                    Sucesso!</h3>
+                <!-- <img src="imgs/loading.gif" alt="loading" id="loadingImage" class="loading" style="display: none;"> -->
+                <aside id="pss1-text" class="evalText" data-step="1" style="display: none;">Aplicando Cupom de Desconto
+                </aside>
+                <aside id="pss2-text" class="evalText" data-step="2" style="display: none;">184 pessoas online no
+                    momento…</aside>
+                <aside id="pss3-text" class="evalText" data-step="3" style="display: none;">Verificando a sua
+                    localização...</aside>
+                <aside id="pss4-text" class="evalText" data-step="4" style="display: none;">Carregando...</aside>
+            </div>
+            <div id="congratsBox" class="clearfix" style="display: none;">
+                <article id="surveyEnd">
+                    <section>
+                        <h2>PARABÉNS! RESPOSTAS CONFIRMADAS!</h2>
+                    </section>
+
+                    <button id="surveyAgree" class="stepButton yesBtn link-pv" href="">CLIQUE E
+                        CORRIJA A SUA POSTURA</button>
+                </article>
+            </div>
+        </div>
+        <h1 class="counter">532</h1>
+        <p class="counter-desc">Pessoas respondendo neste momento</p>
+    </div>
+
+    <script>
+        var noTimeLeft = "a few seconds";
+        var minutesTxt = " minutes and ";
+        var secondsTxt = " seconds";
+        var redirTime = "28800";
+        var trackEvents = "";
+        var autoplayVids = "";
+        var mobileOptIn = "";
+        var popWin = "";
+        var cpaUrl = "http://google.com.br/";
+        var passSubIds = "1";
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.counterup/1.0/jquery.counterup.min.js"></script>
+    <script src="js/presell-crusher.min.js"></script>
+    <script>
+        $(function () {
+            var linkCheckout = 'https://posturaemdia.com';
+
+            var url_string = window.location.href;
+            var urlparams = new URL(url_string);
+            var src = urlparams.searchParams.get("src");
+            var buttons = $('.link-pv');
+            var url = linkCheckout + '?src=mp02-' + src;
+            $(buttons).attr('href', url);
+        });
+        $('.counter').counterUp({
+            delay: 10,
+            time: 3000
+        });
+    </script>
+</body>
+
+</html>
